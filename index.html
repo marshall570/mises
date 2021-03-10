@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script>
+        let slide = 1
+        
+        function load_slide() {
+            setInterval(() => {
+                document.getElementById(`radio${slide}`).checked = true
+                document.getElementById(`lbl_radio${slide}`).style.background = "#343331"
+
+                if (slide !== 1) {
+                    document.getElementById(`lbl_radio${slide - 1}`).style.background = "inherit"
+                } else {
+                    document.getElementById('lbl_radio4').style.background = "inherit"
+                }
+
+                slide++
+
+                if (slide > 4) {
+                    slide = 1
+                }
+            }, 10000)
+        }
+    </script>
+    <title>LUDWIG VON MISES</title>
+</head>
+
+<body onload="load_slide()">
+    <header>
+        <img src="./assets/fatec_symbolic.png" alt="" style="cursor: pointer;" onclick="window.location='http://www.fateczl.edu.br/'">
+        <a href="#vida">VIDA</a>
+        <a href="#obra">OBRA</a>
+        <a href="#licoes">6 LIÇÕES</a>
+        <a href="#criticas">CRÍTICAS</a>
+    </header>
+
+    <div class="banner">
+        <img src="./assets/banner.png" alt="">
+    </div>
+
+    <div class="conteudo_a" id="vida">
+        <div class="texto">
+            <p>
+                Ludwig Von Mises (1881 – 1973) foi um renomado economista e filósofo
+                liberalista, responsável pela expansão e desenvolvimento da
+                <b>“Escola Austríaca de Economia do século XX”</b> e da
+                <b>Praxeologia</b>.
+            </p>
+
+            <p>
+                Pouco tempo após a queda do império russo, Mises começou a desenvolver suas teorias que apontavam o
+                quanto o socialismo seria nocivo para a Economia e para as liberdades civis. Apontando primeiramente que
+                a extinção da propriedade privada faria impossível “fazer a conta fechar” e que, após a tomada dos
+                meios de produção, o Estado teria a capacidade de controlar a vida de todos os indivíduos em todos os
+                aspectos possíveis.
+            </p>
+
+            <p>
+                Com a ascensão do Nazismo na Alemanha e seus vizinhos, incluindo a Áustria, Mises passou a ser alvo de
+                represálias devido suas crenças no Capitalismo/Liberalismo e sua origem Judia, esta situação fez com que
+                ele se passasse 14 anos como <i>privatdozent</i>. Após sua fuga para a Suíça em 1938, Mises se casou com
+                a atriz Margit Herzfeld e em 1940 se mudaram para os Nova Iorque nos Estados Unidos, onde Mises se
+                tornou professor da New York University e mais tarde se tornou autor e palestrante da Foundation for
+                Economic Education.
+            </p>
+        </div>
+
+        <div class="imagem">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn-images-1.medium.com%2Fmax%2F1600%2F1*dhRdK-9JmA6FMjZLsVpXbQ.jpeg" alt=""/>
+        </div>
+    </div>
+
+    <div class="conteudo_b" id="obra">
+        <div class="texto">
+            <p>
+                Mises se tornou muito reconhecido por suas obras, tendo como principais destaques a declaração de Murray
+                Rothbard sobre seu livro “A Ação Humana” de que o mesmo seria a “Bíblia econômica do homem civilizado” e
+                a conquista do prêmio Nobel por um de seus principais pupilos, Friedrich Hayek.
+            </p>
+
+            <p>
+                Ao longo de sua vida, <i>estima-se que Mises tenha escrito mais de 10.000 documentos que registravam
+                    suas
+                    teses e ideologias</i> (muitos destes acabaram sendo <b>confiscados</b> pela Gestapo durante o
+                regime nazista),
+                porém suas dentre suas principais obras podemos citar:
+            </p>
+
+            <ul>
+                <li>
+                    <b>Cálculo econômico sobre o Socialismo (1920)</b>: Um artigo que descreve os principais problemas
+                    do
+                    Socialismo e, consequentemente, o porquê de sua inaplicabilidade;
+                </li>
+
+                <li>
+                    <b>Ação Humana (1949)</b>: Considerada a maior obra do autor, nesta obra são apresentados os
+                    conceitos de
+                    praxeologia e cataláxia, mostrando o funcionamento de uma economia voltada ao indivíduo;
+                </li>
+
+                <li>
+                    <b>Teoria e História (1957)</b>: Obra que critica o materialismo histórico de Karl Marx e apresenta
+                    a
+                    dicotomia entre “estudar história” e “compreender a história”.
+                </li>
+
+                <li>
+                    <b>As Seis Lições (1979)</b>: Um compilado de 6 palestras realizadas por Mises na Universidade de
+                    Buenos
+                    Aires, apresentando de forma amigável conceitos sobre o Capitalismo, Socialismo, Intervencionismo,
+                    Inflação, Investimento Estrangeiro e Política.
+                </li>
+            </ul>
+
+            <p>
+                Dentre as obras citadas acima, as que mais possuem relevância nos dias atuais e são consideradas
+                “leituras obrigatórias” para aqueles que querem se aprofundar nos estudos de economia são <b>“Ação
+                    Humana”</b>
+                e <b>“As Seis Lições”</b>, vejamos um pouco sobre elas.
+            </p>
+        </div>
+
+        <div class="imagem">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.fineartamerica.com%2Fimages%2Fartworkimages%2Fmediumlarge%2F1%2Fludwig-von-mises-john-l.jpg" alt="" />
+        </div>
+    </div>
+
+    <div class="licoes" id="licoes">
+        <div class="cabecalho_licoes">
+            <p>
+                Em 1958, Mises realizou uma série de <b>seis palestras na Universidade de Buenos Aires</b> em que
+                dissecava suas teses anteriormente registradas em seu livro <b>Ação Humana</b>. Anos depois, estas
+                palestras foram compiladas em um livro chamado <b>As Seis Lições</b>, que é considerada uma ótima obra
+                de introdução ao pensamento Liberal e as ideias de Mises, abaixo veremos uma breve explicação sobre cada
+                uma das lições.
+            </p>
+        </div>
+
+        <div class="itens_licoes">
+            <ul>
+                <li>
+                    <b>1. CAPITALISMO:</b> Mises aponta que o princípio fundamental do Capitalismo é a <strong>produção
+                        voltada para a satisfação das necessidades do consumidor</strong>, algo que não existia antes
+                    devido a falta de mobilidade social na época. Mises também aponta que, embora as pessoas gostem de
+                    crucificar o capitalismo em suas fases iniciais, é inegável que a humanidade evoluiu muito por conta
+                    dele e isso é evidente quando analisamos o crescimento da população mundial e a melhoria na
+                    qualidade e expectativa de vida das pessoas.
+                </li>
+
+                <li>
+                    <b>2. SOCIALISMO:</b> Desde o começo de sua carreira como economista e filósofo liberalista, Mises
+                    <strong>abomina o Socialismo</strong> em todos os cenários possíveis, pois economicamente "a conta
+                    não fecha" - e por consequência a miséria cresce exponencialmente - e no âmbito social é
+                    <strong>impossível existir liberdades</strong> em um sistema como esse, visto que o Estado controla
+                    tudo e possui o poder para "controlar" aqueles que são divergentes do sistema e suas ideias.
+                </li>
+
+                <li>
+                    <b>3. INTERVENCIONISMO:</b> Em seu pensamento, Mises entende que o Estado só deve intervir
+                    <strong>apenas para preservar a ordem</strong>, impedindo o consumismo desenfreado que traz
+                    prejuízo aos empresários e produtores. Este pensamento é sustentado na ideia de que, <i>mesmo
+                        que a medida possua a melhor das intenções ela irá gerar um efeito contrário a longo prazo,</i>
+                    desta cadeia de pensamento Mises desenvolveu a <strong>Teoria dos Ciclos Econômicos</strong>,
+                    que posteriormente foi a responsável por premiar seu discípulo Friedrich Hayek com o Prêmio Nobel
+                    de Economia em 1974.
+                </li>
+            </ul>
+
+            <ul>
+                <li>
+                    <b>4. INFLAÇÃO: </b> Diferente do entendimento popular que prega que a inflação está ligada ao
+                    aumento de preços, Mises aponta que na verdade ela está ligada ao <strong>aumento da quantidade
+                        de dinheiro na economia</strong>, devido ao Sistema de Reservas Fracionadas que é utilizado
+                    por muitos governos ao redor do mundo. Como este sistema de reservas "cria dinheiro que não existe"
+                    para que os cidadãos possam utilizá-lo e mover a economia, eventualmente o consumismo se torna algo
+                    desenfreado, os preços disparam e quebram a economia e assim "reinicia-se o ciclo econômico" - por
+                    isso é necessário manter o "lastro ouro", para evitar as quebras na economia e as recessões que
+                    acontecem de tempos em tempos.
+                </li>
+
+                <li>
+                    <b>5. INVESTIMENTO EXTERNO: </b> Segundo Mises, para países subdesenvolvidos é essencial que exista
+                    o investimento externo vindo de países já desenvovidos, visto que a melhoria e investimento nestes
+                    países gera melhoras em todo o mundo, como aconteceu durante boa parte dos séculos XIX e XX.
+                </li>
+
+                <li>
+                    <b>6. POLÍTICA: </b> Por fim, temos as visões de Mises sobre a política, mostrando histórias e
+                    exemplos
+                    que <strong>reforçam a falência dos modelos representativos políticos partidários</strong>, visto
+                    que
+                    nestes cenários estes partidos evoluem para grupos em que os membros buscam apenas satisfazer seus
+                    interesses próprios a todo custo. Reforçando assim que é importante as ideias lberais para combater
+                    estes grupos e sistemas que, em suma, privam seus semelhantes de serem livres.
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="conteudo_b" id="criticas">
+        <div class="texto">
+            <p>
+                Durante toda sua vida Mises foi alvo de duras críticas, que iam desde críticas a suas ideias e
+                até mesmo a sua personalidade e temperamento.
+            </p>
+
+            <p>
+                Mises sempre teve uma postura muito assertiva e inflexível sobre suas ideias e teorias, sendo até
+                mesmo <strong>considerado uma pessoa de difícil convivência</strong> por vários de seus companheiros e
+                discípulos,
+                como Milton Friedman e Friedrich Hayek.
+            </p>
+
+            <p>
+                Muitas das críticas em relação as ideias de Mises surgem devido a inflexibilidade do mesmo em relação
+                ao Socialismo, sendo muitas vezes extremo em suas declarações - que por muitas vezes se tornavam
+                praticamente
+                discursos de ódio quando tiradas de contexto - chegando até mesmo ao ponto de dizer que <strong><i>"O
+                        Fascismo
+                        italiano é uma maravilha para impedir que o Socialismo se desenvolva"</i></strong>, mas
+                completando que o
+                mesmo deveria ser utilizado como "plano de emergência" já que este seria o menor dos males.
+            </p>
+        </div>
+
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="btn_radio" id="radio1">
+                <input type="radio" name="btn_radio" id="radio2">
+                <input type="radio" name="btn_radio" id="radio3">
+                <input type="radio" name="btn_radio" id="radio4">
+
+                <div class="slide first">
+                    <div class="frase">
+                        <p>
+                            <i>
+                                "O Professor von Mises tem uma mente analítica esplêndida e um admirável paixão pela
+                                liberdade; mas como estudante de natureza humana é pior que o nulo. E como um debatedor,
+                                é de baixo padrão."
+                            </i>
+                        </p>
+
+                        <p>
+                            <strong>
+                                The Economist sobre "A Mentalidade Anticapitalista"
+                            </strong>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <div class="frase">
+                        <p>
+                            <i>
+                                "Em primeiro lugar nós sentíamos que ele era tremendamente exagerado e mesmo ofensivo.
+                                Ele feriu os nossos sentimentos mais profundos, mas gradualmente ele ganhou-nos por aí,
+                                embora por muito tempo — eu aprendi que ele estava sempre certo em suas conclusões — eu
+                                não estivesse completamente satisfeito com seus argumentos."
+                            </i>
+                        </p>
+
+                        <p>
+                            <strong>
+                                Friedrich Hayek sobre "Mises e o Socialismo"
+                            </strong>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <div class="frase">
+                        <p>
+                            <i>
+                                "Em outra ocasião, Fritz Machlup, que foi aluno de von Mises e um dos seus mais fiéis
+                                discípulos, deu uma palestra em que ele questionou a ideia de um padrão para a cotação
+                                do ouro; ele se expressou em favor de taxas de câmbio flutuantes. Von Mises teria ficado
+                                tão bravo, que não falaria com Machlup durante três anos."
+                            </i>
+                        </p>
+
+                        <p>
+                            <strong>
+                                Milton Friedman sobre a inflexibilidade de Mises
+                            </strong>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <div class="frase">
+                        <p>
+                            <i>
+                                "Não se pode negar que o fascismo e movimentos semelhantes, visando o estabelecimento de
+                                ditaduras são cheios de boas intenções e que sua intervenção, em dado momento, salvou a
+                                civilização europeia. O mérito que o fascismo ganhou assim, por si só viverá eternamente
+                                na história. Mas apesar da sua política ter sido a salvação do momento, ela não é do
+                                tipo que possa garantir um sucesso contínuo. O Fascismo foi um improviso para fazer face
+                                a uma emergência. Entendê-lo como algo mais que isso seria um erro fatal."
+                            </i>
+                        </p>
+
+                        <p>
+                            <strong>
+                                Mises e a declaração sobre "Fascismo x Socialismo"
+                            </strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navegacao_manual">
+                <label for="radio1" id="lbl_radio1" class="btn_manual"></label>
+                <label for="radio2" id="lbl_radio2" class="btn_manual"></label>
+                <label for="radio3" id="lbl_radio3" class="btn_manual"></label>
+                <label for="radio4" id="lbl_radio4" class="btn_manual"></label>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <section>
+            <label for="">INTEGRANTES:</label>
+            <ul>
+                <li><a href="" target="_blank" rel="noopener noreferrer">Ana Letycia de Lima Parente</a></li>
+                <li><a href="" target="_blank" rel="noopener noreferrer">Augusto Belina Morais</a></li>
+                <li><a href="" target="_blank" rel="noopener noreferrer">Ellen Suellen dos Santos Silva</a></li>
+                <li><a href="" target="_blank" rel="noopener noreferrer">Gustavo Sergio Fernandes</a></li>
+                <li><a href="" target="_blank" rel="noopener noreferrer">Tatiana Ferreira de Araújo</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <label for="">INSTITUIÇÃO:</label>
+            <ul>
+                <li><a href="http://www.fateczl.edu.br/" target="_blank" rel="noopener noreferrer">FATEC Zona Leste</a>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <label for="">CURSO:</label>
+            <ul>
+                <li>Gestão Empresarial (Manhã)</li>
+            </ul>
+        </section>
+
+        <section>
+            <label for="">PROFESSOR:</label>
+            <ul>
+                <li>Luiz Antônio da Costa Alves Feijó</li>
+            </ul>
+        </section>
+    </footer>
+</body>
+
+</html>
