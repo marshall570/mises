@@ -258,7 +258,7 @@ footer li a {
 
 @media only screen and (orientation: portrait) {
   header {
-    min-height: 3.25%;
+    min-height: 4%;
   }
 
   header img {
@@ -266,7 +266,7 @@ footer li a {
   }
 
   header a {
-    font-size: 1.2vh;
+    font-size: 1.5vh;
   }
   
   .banner {
@@ -317,6 +317,14 @@ footer li a {
     flex-direction: column;
   }
 
+  footer label {
+    font-size: 1.75vh;
+  }
+
+  footer li{
+    font-size: 1.25vh;
+  }
+  
   footer li:last-child {
     margin-bottom: 3vh;
   }
