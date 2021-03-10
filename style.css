@@ -257,12 +257,16 @@ footer li a {
 }
 
 @media only screen and (orientation: portrait) {
+  header {
+    min-height: 4%;
+  }
+
   header img {
     display: none;
   }
 
   header a {
-    font-size: 1.5vh;
+    font-size: 1vh;
   }
   
   .banner {
@@ -279,11 +283,11 @@ footer li a {
   
   .texto {
     width: 90%;
-    font-size: 1.15vh;
+    font-size: 1.5vh;
   }
   
   .cabecalho_licoes {    
-    font-size: 1.15vh;
+    font-size: 1.5vh;
   }
   
   .imagem {
@@ -301,7 +305,7 @@ footer li a {
   }
   
   .itens_licoes li {    
-    font-size: 1vh;    
+    font-size: 1.5vh;    
   }
   
   .slider {
