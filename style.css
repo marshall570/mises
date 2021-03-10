@@ -257,6 +257,10 @@ footer li a {
 }
 
 @media only screen and (orientation: portrait) {
+  header img {
+    display: none ;
+  }
+  
   .banner {
     min-height: 12%;
   }
