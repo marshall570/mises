@@ -255,3 +255,46 @@ footer li a {
   color: inherit;
   text-decoration: none;
 }
+
+@media only screen and (orientation: portrait) {
+  .banner {
+    min-height: 12%;
+  }
+  
+  .conteudo_a {
+    flex-direction: column;
+  }
+  
+  .conteudo_b {
+    flex-direction: column;
+  }
+  
+  .texto {
+    width: 95%;
+  }
+  
+  .imagem {
+    width: 95%;
+  }
+
+  .itens_licoes {
+    flex-direction: column;
+  }
+  
+  .itens_licoes ul {
+    width: 95%;
+  }
+  
+  .slider {
+    width: 95%;
+    height: 40%;
+  }
+  
+  footer {
+    flex-direction: column;
+  }
+
+  footer li:last-child {
+    margin-bottom: 3vh;
+  }
+}
