@@ -117,7 +117,7 @@ header a:hover {
 }
 
 .itens_licoes li {  
-  font-size: 2.75vh;
+  font-size: 2.5vh;
   margin-top: 3vh;
 }
 
@@ -258,7 +258,11 @@ footer li a {
 
 @media only screen and (orientation: portrait) {
   header img {
-    display: none ;
+    display: none;
+  }
+
+  header a {
+    font-size: 2vh;
   }
   
   .banner {
@@ -274,24 +278,35 @@ footer li a {
   }
   
   .texto {
-    width: 95%;
+    width: 90%;
+    font-size: 1.75vh;
+  }
+  
+  .cabecalho_licoes {    
+    font-size: 1.75vh;
   }
   
   .imagem {
-    width: 95%;
+    width: 90%;
+    margin-top: 1vh;
   }
-
+  
   .itens_licoes {
     flex-direction: column;
   }
   
   .itens_licoes ul {
-    width: 95%;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .itens_licoes li {    
+    font-size: 1.5vh;    
   }
   
   .slider {
     width: 95%;
-    height: 40%;
+    height: 50%;
   }
   
   footer {
