@@ -1,5 +1,5 @@
 # LUDWIG VON MISES
-Pesquisa realizada sobre o economista e filósofo austríaco Ludwig Von Mises sob orientação do professor Luiz Antônio da Costa Alves Feijó.
+Pesquisa sobre o economista e filósofo austríaco Ludwig Von Mises realizada sob orientação do professor Luiz Antônio da Costa Alves Feijó.
 
 # RESUMO
 *Ludwig Von Mises (1881 – 1973) foi um renomado economista e filósofo liberalista, responsável pela expansão e desenvolvimento da “Escola Austríaca de Economia do século XX” e da Praxeologia.*
