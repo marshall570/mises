@@ -54,11 +54,13 @@ header img:hover {
 .banner {
   width: 100%;
   min-height: 24%;
-  background: #80551a;
+  background: #111111;
+  display: flex;
+  justify-content: center;
 }
 
 .banner img {
-  width: 100%;
+  width: inherit;
   height: 100%;
 }
 
@@ -194,7 +196,6 @@ header img:hover {
   width: 40%;
   margin-top: -5vh;
   display: none;
-  /* justify-content: center; */
 }
 
 .btn_manual {
